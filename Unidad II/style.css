@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+form {
+  background-color: beige;
+  padding: 1rem;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container>i {
+  padding: 14px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  color: aliceblue;
+  position: absolute;
+  font-size: 20px;
+  top: 7px;
+  right: 8px;
+}
+
+.input-container>input {
+  padding: 20px 50px 20px 15px;
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 35px;
+}
+
+form a {
+  display: block;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+form .btn {
+  background-color: aliceblue;
+  border-radius: 25px;
+  width: 6rem;
+  height: 2rem;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+form .btn:hover {
+  background-color: blueviolet;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  color: aliceblue;
+}
+
+.success {
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+  color: greenyellow;
+}
+
+.error {
+  position: absolute;
+  top: 50px;
+  font-size: 25px;
+  color: red;
+}
+
+.table {
+  background-color: black;
+  color: aliceblue;
+}
